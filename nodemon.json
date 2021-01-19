@@ -1,0 +1,12 @@
+{
+  "watch": ["src", "config"],
+  "ext": "js",
+  "ignore": ["src/**/*.spec.js"],
+  "execMap": {
+    "js": "node --inspect"
+  },
+  "env": {
+    "NODE_DEBUG": 9229,
+    "NODE_ENV": "development"
+  }
+}
